@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>.kbg Companion Care Agency</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f8fafc;
+      color: #1e293b;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #0f766e;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      max-width: 700px;
+      margin: auto;
+      font-size: 1.2rem;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 15px 10px 0;
+      padding: 14px 28px;
+      background: white;
+      color: #0f766e;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 70px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2.2rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    .pricing {
+      background: #f1f5f9;
+    }
+
+    .featured {
+      border: 3px solid #0f766e;
+    }
+
+    .price {
+      font-size: 2rem;
+      font-weight: bold;
+      margin: 15px 0;
+      color: #0f766e;
+    }
+
+    .testimonial {
+      font-style: italic;
+    }
+
+    form {
+      max-width: 600px;
+      margin: auto;
+      display: grid;
+      gap: 15px;
+    }
+
+    input, textarea, select {
+      padding: 14px;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+
+    button {
+      background: #0f766e;
+      color: white;
+      border: none;
+      padding: 15px;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    footer {
+      background: #0f172a;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>.kbg Companion Care Agency</h1>
+  <p>
+    Helping seniors stay connected, supported, and independent through trusted
+    virtual and in-person companionship services across Southern Ontario.
+  </p>
+
+  <a href="#waitlist" class="btn">Register for Early Booking Discount</a>
+  <a href="#contact" class="btn">Contact Us</a>
+</header>
+
+<section>
+  <h2>Our Services</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>In-Person Companionship</h3>
+      <p>
+        Friendly visits, emotional support, errands, appointments, and meaningful conversation.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Virtual Companionship</h3>
+      <p>
+        Video and phone companionship services helping seniors stay socially connected.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Flexible Scheduling</h3>
+      <p>
+        Services available starting from 3 hours weekly or more based on your needs.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Trusted Care</h3>
+      <p>
+        Carefully vetted companions with compassion, professionalism, and heart.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="pricing">
+  <h2>Pricing Packages</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Essential Care</h3>
+      <p>3 Hours Per Week</p>
+      <div class="price">$360/month</div>
+      <p>
+        Ideal for weekly check-ins, companionship, and reducing loneliness.
+      </p>
+    </div>
+
+    <div class="card featured">
+      <h3>Enhanced Support</h3>
+      <p>5 Hours Per Week</p>
+      <div class="price">$600/month</div>
+      <p>
+        Our most popular package for ongoing companionship and peace of mind.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Custom Care</h3>
+      <p>Flexible Hours</p>
+      <div class="price">Custom Quote</div>
+      <p>
+        Personalized companionship plans for unique family needs.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Why Families Choose Us</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Loneliness-Focused Support</h3>
+      <p>
+        We prioritize emotional wellbeing, connection, and companionship.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Reliable & Professional</h3>
+      <p>
+        Families can feel confident knowing their loved ones are cared for.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Flexible Options</h3>
+      <p>
+        Virtual and in-person services tailored to your schedule.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>What Families Are Saying</h2>
+
+  <div class="grid">
+    <div class="card testimonial">
+      <p>
+        “The companionship visits gave my mother something to look forward to every week.”
+      </p>
+      <strong>— Sarah M.</strong>
+    </div>
+
+    <div class="card testimonial">
+      <p>
+        “Reliable, kind, and professional. The virtual visits made a huge difference.”
+      </p>
+      <strong>— Daniel T.</strong>
+    </div>
+
+    <div class="card testimonial">
+      <p>
+        “My father became more engaged and less isolated after starting services.”
+      </p>
+      <strong>— Anita L.</strong>
+    </div>
+  </div>
+</section>
+
+<section id="waitlist">
+  <h2>Join Our Founding Families Waitlist</h2>
+
+  <p style="text-align:center; max-width:700px; margin:auto auto 30px;">
+    Early members receive discounted introductory pricing and priority scheduling.
+  </p>
+
+  <form>
+    <input type="text" placeholder="Full Name" required />
+    <input type="email" placeholder="Email Address" required />
+    <input type="tel" placeholder="Phone Number" required />
+
+    <select>
+      <option>Select Preferred Service</option>
+      <option>Virtual</option>
+      <option>In-Person</option>
+      <option>Both</option>
+    </select>
+
+    <select>
+      <option>Select Weekly Hours</option>
+      <option>3 Hours</option>
+      <option>5 Hours</option>
+      <option>Custom</option>
+    </select>
+
+    <button type="submit">Reserve My Spot</button>
+  </form>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+
+  <form>
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea rows="6" placeholder="How can we help?"></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+
+  <p style="text-align:center; margin-top:30px;">
+    Email: hello@kbgcompanioncare.ca<br>
+    Phone: (647) 000-0000
+  </p>
+</section>
+
+<section>
+  <h2>Become a Companion</h2>
+
+  <div class="card" style="max-width:800px; margin:auto; text-align:center;">
+    <p>
+      We are currently hiring compassionate and vetted companions who are passionate
+      about helping seniors stay socially connected and emotionally supported.
+    </p>
+
+    <p>
+      Ideal candidates are warm, patient, reliable, and able to pass a criminal record check.
+    </p>
+
+    <a href="#contact" class="btn" style="background:#0f766e; color:white;">
+      Apply to Join Our Team
+    </a>
+  </div>
+</section>
+
+<footer>
+  <h3>.kbg Companion Care Agency</h3>
+  <p>You can’t always be there. We can.</p>
+  <p>Serving families across Southern Ontario</p>
+  <p>© 2026 .kbg Companion Care Agency</p>
+</footer>
+
+</body>
+</html>
